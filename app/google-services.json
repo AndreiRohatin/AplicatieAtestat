@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1065743590997",
+    "firebase_url": "https://messenger-bb808.firebaseio.com",
+    "project_id": "messenger-bb808",
+    "storage_bucket": "messenger-bb808.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065743590997:android:6351dda5ab8ad2ccee56dc",
+        "android_client_info": {
+          "package_name": "com.example.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065743590997-em8l32hdld8l383m5cfl9onm13eq7nlg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.messenger",
+            "certificate_hash": "d907fc5f60d4850e23ccdbbc4801f671346b82b9"
+          }
+        },
+        {
+          "client_id": "1065743590997-3nh3bhmvi50pqee0ilejv2i9neqkdlgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf5CKZDyzLdx-EHzzewHnaUhUvkL26tl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065743590997-3nh3bhmvi50pqee0ilejv2i9neqkdlgd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1065743590997-bu866rv78p6f6nculf1ot3rvffelrudd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.messenger"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

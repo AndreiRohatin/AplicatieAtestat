@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ProfileFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/undercard"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/profile_image"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/ic_launcher"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="username"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/profile_image"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:id="@+id/username"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/blockcontact"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/undercard"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="Block user"
+        android:textSize="15sp"
+        android:background="@android:color/transparent"
+        android:textAlignment="textStart"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blockcontact"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Logout"
+        android:textSize="15sp"
+        android:background="@android:color/transparent"
+        android:textAlignment="textStart"/>
+
+</RelativeLayout>
